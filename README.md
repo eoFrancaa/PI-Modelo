@@ -1,5 +1,5 @@
 # Projeto Integrador - Modelo
-*Popped*
+*(Popped)*
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 *(Popped uma marca de refrigerante onde vende suas peças de roupa.)*
