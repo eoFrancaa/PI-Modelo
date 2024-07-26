@@ -1,5 +1,5 @@
 # Projeto Integrador - Modelo
-*(Popped)*
+**Popped**
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 *(Popped uma marca de refrigerante onde vende suas peças de roupa.)*
@@ -16,12 +16,12 @@ Equipe:
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/eoFranca/Popped_Django.git) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/eoFranca/PI-Popped.git) e [Publicação](https://popped.vercel.app/)
 
 
-1. **Desenvolvimento**
-1.1 Modelos de Sistemas
+# 1. Desenvolvimento
+# 1.1 Modelos de Sistemas
 Modelo Escolhido: Ponto de Vendas (PDV)
 
 Descrição do Sistema:
@@ -30,11 +30,11 @@ O sistema a ser desenvolvido para a "Popped" irá gerenciar as operações de ve
 Motivo da Escolha:
 Escolhemos o modelo de Ponto de Vendas (PDV) porque ele é ideal para o gerenciamento integrado de vendas de diversos tipos de produtos, neste caso, refrigerantes e roupas. A integração dos processos de vendas e controle de estoque ajudará a otimizar a operação, melhorar a eficiência e fornecer informações valiosas para a tomada de decisões.
 
-2. **Situação Problema**
-Introdução:
+# 2. Situação Problema
+**Introdução:**
 A "Popped" é uma marca que combina a venda de refrigerantes e roupas com sua marca. Fundada há três anos, a empresa tem se expandido rapidamente, com lojas físicas em várias cidades e uma plataforma de e-commerce ativa. A equipe é composta por gerentes de loja, atendentes, e pessoal de logística. A empresa enfrenta desafios relacionados ao gerenciamento de suas operações de vendas e controle de estoque.
 
-Situação-Problema:
+**Situação-Problema:**
 Atualmente, a "Popped" enfrenta vários problemas operacionais:
 
 Gerenciamento de Estoque: O controle de estoque de refrigerantes e roupas é feito de maneira separada, resultando em falta de visibilidade e dificuldades na coordenação do inventário. Isso leva a problemas como falta de produtos em estoque e excesso de alguns itens.
@@ -43,11 +43,11 @@ Processo de Venda: As vendas são processadas por sistemas diferentes para bebid
 
 Relatórios e Análises: A geração de relatórios é realizada manualmente e não fornece uma visão consolidada do desempenho das vendas e do inventário. A falta de relatórios detalhados impede uma análise eficaz e a tomada de decisões informadas.
 
-Conclusão:
+**Conclusão:**
 A falta de um sistema integrado para gerenciar as vendas e o estoque da "Popped" está prejudicando a eficiência operacional e a capacidade de análise da empresa. Um sistema de Ponto de Vendas (PDV) integrado pode resolver esses problemas ao consolidar dados, melhorar o controle de estoque e facilitar a geração de relatórios precisos.
 
-3. **Descrição da Proposta**
-Foco de Ação do Software:
+# 3. Descrição da Proposta
+**Foco de Ação do Software:**
 O software proposto será um sistema de Ponto de Vendas (PDV) que integrará a gestão das vendas de refrigerantes e roupas. As principais funções do sistema incluirão:
 
 Gerenciamento de Estoque: Controle unificado do estoque de refrigerantes e roupas, com atualizações em tempo real e alertas para reabastecimento quando os níveis de estoque estiverem baixos.
@@ -56,7 +56,7 @@ Processo de Venda: Sistema único para registrar e processar transações de ven
 
 Geração de Relatórios: Relatórios detalhados sobre vendas, estoque e desempenho dos produtos, com capacidade de gerar análises consolidadas e personalizadas para apoiar a tomada de decisões.
 
-Níveis de Usuário:
+**Níveis de Usuário:**
 
 Administrador: Acesso total para configurar produtos, gerenciar usuários, e gerar relatórios completos. Pode acessar e modificar todas as áreas do sistema.
 
@@ -64,7 +64,7 @@ Gerente de Loja: Acesso para gerenciar vendas e estoque na loja física, visuali
 
 Atendente: Acesso para realizar transações de vendas e consultar o estoque. Sem permissões para alterar configurações ou gerar relatórios avançados.
 
-Funcionalidades Principais:
+**Funcionalidades Principais:**
 
 Cadastro e gerenciamento de produtos (refrigerantes e roupas).
 Controle de estoque com atualizações em tempo real e alertas para reabastecimento.
@@ -80,347 +80,72 @@ Interface de integração com a plataforma de e-commerce para sincronização de
 Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
 
 
-<!--
+
 # 4. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
-automatizadas na gestão por processo.
+Claro! Abaixo estão os requisitos funcionais e não funcionais para o sistema de Ponto de Vendas (PDV) proposto para a "Popped".
 
-**4.1 O que são regras de negócio?**
+## Requisitos Funcionais
 
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
+1. **Cadastro e Gerenciamento de Produtos**
+   - **RF01**: O sistema deve permitir o cadastro de novos produtos, incluindo informações como nome, descrição, preço, categoria (refrigerantes ou roupas), e imagens.
+   - **RF02**: O sistema deve permitir a edição e exclusão de produtos cadastrados.
+   - **RF03**: O sistema deve permitir a organização dos produtos em categorias e subcategorias para facilitar a navegação e a busca.
 
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
+2. **Gerenciamento de Estoque**
+   - **RF04**: O sistema deve manter um controle unificado do estoque para refrigerantes e roupas.
+   - **RF05**: O sistema deve atualizar o nível de estoque em tempo real após cada transação de venda.
+   - **RF06**: O sistema deve emitir alertas automáticos para reabastecimento quando os níveis de estoque de um produto atingirem um limite mínimo pré-definido.
+   - **RF07**: O sistema deve permitir o ajuste manual do estoque para corrigir discrepâncias.
 
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
+3. **Processo de Venda**
+   - **RF08**: O sistema deve permitir o registro e processamento de transações de venda para refrigerantes e roupas, tanto nas lojas físicas quanto na plataforma de e-commerce.
+   - **RF09**: O sistema deve suportar diferentes formas de pagamento (dinheiro, cartão de crédito, débito, etc.).
+   - **RF10**: O sistema deve gerar recibos de venda e permitir o envio de comprovantes por e-mail ou impressão.
 
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
+4. **Geração de Relatórios**
+   - **RF11**: O sistema deve gerar relatórios detalhados sobre vendas, incluindo total de vendas, produtos mais vendidos e desempenho por loja e por período.
+   - **RF12**: O sistema deve gerar relatórios de estoque, mostrando níveis de inventário, produtos com baixo estoque e histórico de movimentação.
+   - **RF13**: O sistema deve permitir a exportação de relatórios em formatos como PDF e Excel.
 
-**4.2 Regras para a criação de regras de negócio**
+5. **Interface de Integração com a Plataforma de E-commerce**
+   - **RF14**: O sistema deve integrar-se com a plataforma de e-commerce para sincronização de dados de produtos, vendas e estoque.
+   - **RF15**: O sistema deve atualizar o estoque automaticamente na plataforma de e-commerce após cada venda realizada.
 
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
+6. **Gerenciamento de Usuários**
+   - **RF16**: O sistema deve permitir a criação e gestão de diferentes tipos de usuários (Administrador, Gerente de Loja, Atendente) com permissões específicas.
+   - **RF17**: O sistema deve registrar e auditar todas as ações realizadas pelos usuários para fins de segurança e controle.
 
-**4.3 Por que ter regras de negócio?**
+## Requisitos Não Funcionais
 
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
+1. **Desempenho**
+   - **RNF01**: O sistema deve processar transações de vendas em menos de 2 segundos por operação para garantir um atendimento rápido.
+   - **RNF02**: O sistema deve atualizar o estoque em tempo real com uma latência não superior a 5 segundos após uma transação de venda.
 
-**4.4 Exemplos de regras de negócio**
+2. **Segurança**
+   - **RNF03**: O sistema deve garantir que todos os dados sensíveis (como informações de pagamento) sejam criptografados.
+   - **RNF04**: O sistema deve implementar autenticação forte para todos os usuários e permitir a recuperação de senha de maneira segura.
+   - **RNF05**: O sistema deve proteger contra acesso não autorizado e deve permitir a configuração de permissões baseadas em funções de usuário.
 
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
+3. **Escalabilidade**
+   - **RNF06**: O sistema deve ser capaz de suportar o crescimento do número de produtos, usuários e transações sem degradação significativa de desempenho.
+   - **RNF07**: O sistema deve permitir a adição de novas lojas e a integração com futuros canais de venda sem necessidade de grandes modificações.
 
-**4.5 Como escrever regras de negócio?**
+4. **Usabilidade**
+   - **RNF08**: O sistema deve ter uma interface intuitiva e amigável, com fácil navegação para todos os níveis de usuários.
+   - **RNF09**: O sistema deve fornecer ajuda contextual e tutoriais para auxiliar novos usuários na utilização das funcionalidades.
 
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
+5. **Disponibilidade e Manutenção**
+   - **RNF10**: O sistema deve ter uma disponibilidade mínima de 99,5% ao longo do ano.
+   - **RNF11**: O sistema deve permitir a realização de backups automáticos diários e a recuperação de dados em caso de falhas.
 
-**4.6 Exemplos de regras de negócio com formatação**
+6. **Compatibilidade**
+   - **RNF12**: O sistema deve ser compatível com os principais navegadores web (Chrome, Firefox, Edge) e dispositivos móveis.
+   - **RNF13**: O sistema deve ser compatível com os principais sistemas operacionais utilizados nas lojas físicas e plataformas de e-commerce.
 
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
-
-# 5. Requisitos funcionais
-(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-**5.1 O que são requisitos funcionais?**
-
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
-
-Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**.
-
-- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
-- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
-
-**5.2 Tipos de requisitos funcionais**
-
-Os requisitos funcionais podem ser classificados em:
-
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
-
-**5.3 Diretrizes para a elaboração de requisitos funcionais**
-
-Cada requisito funcional precisa ser:
-
-- **Específico** sobre o que o sistema deve fazer.
-- **Mensurável** para que você possa dizer se o sistema está fazendo isso
-- **Alcançável** dentro do prazo que você definiu
-- **Relevante** para seus objetivos de negócios
-- **Limitado** no tempo para que você possa
-acompanhar o progresso
-
-**5.4 Estrutura do requisito funcional**
-
-Um requisito funcional deve ser estruturado da seguinte forma:
-
-- **Nome do requisito funcional:** descrição do
-requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**5.4.1 Nome do requisito funcional**
-
-**R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
-seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
-Por exemplo:
-- R.F. 01 - Registro de Funcionários
-- R.F. 15 - Gerenciamento de consultas
-- R.F. 04 - Débito em conta corrente
-
-Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
-
-**5.4.2 Descrição do requisito funcional**
-
-**Descrição do requisito:** local para descrever a função deste requisito.
-
-Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa.
-Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
-usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
-
-**5.4.3 Dados necessários**
-
-**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer.
-
-Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual).
-
-Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
-
-**5.4.4 Usuários**
-
-**Usuários:** aqui devem ser colocados os nomes dos usuários que terão acesso a esse requisito, conforme enumerados na descrição do sistema.
-
-**5.4.5 Exemplo de requisito funcional**
-
-- **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
-para a página principal de seu perfil de acesso.
-  - **Dados necessários:** login, senha, nível de permissão.
-  - **Usuários:** todos os níveis de usuário.
-
-**5.4.6 Organização dos requisitos funcionais**
-
-As funcionalidades devem ser organizadas em: entradas, processos e saídas.
-
-**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso.
-
-**Exemplos de entradas:**
-- “**Registro de usuário**” (para permitir depois seu acesso ao software).
-- “**Registro de paciente**” (que seria útil caso nosso software fosse ppara uma clínica, evitando registrar várias vezes os mesmos dados da pessoa a cada consulta e viabilizando um histórico de seus
-atendimentos).
-
-**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados.
-
-**Exemplos de processos:**
-- “**Autenticação de usuário**”, que usará os dados de “**Registro de usuário**” em sua execução.
-- “**Agendamento de consulta**”, que usará dados do “**Registro de paciente**” e talvez do “**Registro de funcionário**” em sua execução.
-
-**Saídas:** São os relatórios, gráficos, impressões, etc., que utilizarem os dados do software para gerar informações pertinentes ao
-negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem.
-
-**Exemplos de saídas:**
-- “Relatório de consultas por paciente”.
-- Relatório de vendas”.
-- “Log de usuários autenticados”.
-
-Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
-negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados necessários devem ser os que a tela exibirá.
-
-**5.4.7 Exemplo de organização dos requisitos funcionais**
-
-(_A seguir, um exemplo de organização de requisitos funcionais, com entradas, processos e saídas._)
-
-**Entradas:**
-
-- **R.F. 01 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 02 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**Processamento:**
-
-- **R.F. 03 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 04 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-**Saídas:**
-
-- **R.F. 05 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 06 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-# 6. Requisitos não funcionais
-
-Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
-
-Eles geralmente são indicados por adjetivos como **segurança**, **desempenho** e **escalabilidade**.
-
-**6.1 Categorias de requisitos não funcionais**
-
-Os requisitos não funcionais são importantes porque ajudam a garantir que o sistema atenda às necessidades do usuário.
-
-Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. **Esses requisitos não têm nenhum
-impacto na funcionalidade do aplicativo.** Além disso, existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
-
-- Interface de Usuário
-- Confiabilidade
-- Segurança
-- Atuação
-- Manutenção
-
-Os requisitos não funcionais podem ser divididos em duas categorias:
-
-1. **Atributos de qualidade:** Estas são as características do sistema que determinam sua qualidade geral. Exemplos de atributos de qualidade incluem segurança, desempenho e usabilidade.
-2. **Restrições:** Estas são as limitações impostas ao sistema.
-Exemplos de restrições incluem tempo, recursos e ambiente.
-
-**6.2 Vantagens dos requisitos não funcionais**
-
-Os requisitos não funcionais ajudam a garantir que o sistema seja:
-
-1. Adaptado às necessidades do usuário.
-2. Adequado à finalidade.
-3. Escalável, seguro e confiável.
-4. Fácil de usar e manter.
-
-**6.3 Exemplos de requisitos não funcionais**
-
-Aqui estão alguns exemplos de requisitos não funcionais:
-1. **Segurança**: O sistema deve ser protegido contra acesso não
-autorizado.
-2. **Atuação**: O sistema deve ser capaz de lidar com o número necessário
-de usuários sem qualquer degradação no desempenho.
-3. **Escalabilidade**: O sistema deve ser capaz de aumentar ou diminuir
-conforme necessário.
-4. **Disponibilidade**: O sistema deve estar disponível quando necessário.
-5. **Manutenção**: O sistema deve ser fácil de manter e atualizar.
-6. **Portabilidade**: O sistema deve ser capaz de rodar em diferentes
-plataformas com alterações mínimas.
-7. **Confiabilidade**: O sistema deve ser confiável e atender aos requisitos
-do usuário.
-8. **Usabilidade**: O sistema deve ser fácil de usar e entender.
-9. **Compatibilidade**: O sistema deve ser compatível com outros sistemas.
-10. **Conformidade**: O sistema deve cumprir todas as leis e regulamentos
-aplicáveis.
-
-**6.4 Exemplo de organização dos requisitos não funcionais**
-
-(_A seguir, um exemplo de organização de requisitos não funcionais._)
-
-**Requisitos não funcionais:**
-
-- **R.N.F. 01 - Nome do requisito não funcional:** descrição do requisito.
-- **R.N.F. 02 - Nome do requisito não funcional:** descrição do requisito.
-
-**Exemplos de requisitos não funcionais:**
-
-
-**Sistema de Padaria**:
-- **R.N.F. 01 - Navegador homologado:** O sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
-- **R.N.F. 02 - Processador:** É recomendado para o sistema  no mínimo um processador Intel i3, similar ou superior a geração 7100 ou AMD Ryzen 3 da geração similar ou superior ao 3100, para que o servidor funcione em sua melhor performance.
-- **R.N.F. 03 - Memória RAM:** é recomendável que o sistema possua no mínimo 2GB de RAM para melhor performance.
-- **R.N.F. 04 - Arquitetura:** Será utilizada a arquitetiura MVC para o desenvolvimento do sistema, com uso de uma API REST para comunicação com o banco de dados.
-- **R.N.F. 05 - Banco de dados:** O sistema será implementado com o banco de dados MySQL.
-- **R.N.F. 06 - Conexão com banco de dados:** Para conexão com o banco de dados, o sistema utilizará a ferramenta de MySQL Connector.
-- **R.N.F. 07 - Implementação:** O sistema deverá ser desenvolvido com linguagem Python, Javascript, HTML5, CSS3 e SQL.
-- **R.N.F. 08 - Segurança:** Ficará a critério do responsável do estabelecimento a segurança dos acessos ao sistema, tendo consciência das pessoas que possua permissão para acesso.
-- **R.N.F. 09 - Ambiente de Desenvolvimento Integrado (IDE):** Para criação do sistema, será utilizado o editor de texto Visual Studio Code.
-- **R.N.F. 10 - Disponibilidade:** O sistema irá atender 99% do tempo de uso, somente ocorreria problemas de cadastro, remoção, inserção ou alteração em casos de falta de rede ou energia.
-- **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
-
-**Sistema de Ordem de Serviço:**
-- **R.N.F. 01 - Navegadores homologados:** o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
-- **R.N.F. 02 - Tecnologia Front-end:** Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além do framework Vue.js.
-- **R.N.F. 03- Tecnologia Back-end:** O software será desenvolvido pela linguagem de programação Python, com o framework Django e a API REST com Django REST Framework.
-- **R.N.F. 04 - Interoperabilidade:** O banco de dados será o MySQL, com a linguagem SQL de banco, sendo todo produzido através do MySQL Workbench .
-- **R.N.F. 05 - Forma de uso do software:** O sistema por fazer parte de um ambiente interno, provavelmente será utilizado de acordo com as horas de trabalho da empresa, mas estará ativo 24 horas por dia em 7 dias por semana.
-- **R.N.F. 06 - Desempenho:** Para a utilização correta e com uma qualidade e eficiência melhor, é recomendado que se use o SO mais atualizado, com recursos de hardware equivalentes a um processador intel i3 5°Gen ou semelhante, e 8GB de memória RAM, assim como os navegadores homologados.
-- **R.N.F. 07- Autenticação:** Para realizar o acesso ao sistema é necessário ter um usuário de autenticação criado pelo administrador, além da possibilidade de solicitar um envio de redefinição de senha.
-- **R.N.F. 08 - Web Server:** O servidor web utilizado será o Apache Tomcat, nas versões mais atualizadas.
-- **R.N.F. 09 - Níveis de segurança:** O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um.
-
-**6.6 Conclusão**
-
-Requisitos não funcionais são essenciais para qualquer sistema. Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
-
-É importante considerar cuidadosamente todos os requisitos não funcionais antes de projetar e desenvolver um sistema.
-Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
-
-# 7. Diagrama de Caso de Uso
-
-**7.1 Introdução**
-
-O diagrama de caso de uso é uma ferramenta de modelagem que descreve o comportamento de um sistema a partir da perspectiva do usuário. Ele é usado para capturar os requisitos funcionais de um sistema.
-
-- Especificam a visão externa do sistema.
-- Descrevem como o sistema é percebido por seus usuários.
-- Descrevem as interações entre os usuários e o sistema.
-
-![Diagrama de Caso de Uso](img/dcu1.png "Diagrama de Caso de Uso")
-
-**Os casos de uso:**
-- Descrevem como os **usuários interagem com o sistema** (as funcionalidades do sistema)
-- Facilitam a **organização dos requisitos** de um sistema.
-- Dão uma **visão externa** do sistema
-- O conjunto de casos de uso deve ser capaz de comunicar a **funcionalidade** e o **comportamento** do sistema para o cliente.
-- Descrevem **o que** o sistema faz, mas **não** especificam **como** isso deve ser feito.
-
-**7.2 Elementos do diagrama de caso de uso**
-
-7.2.1 **Atores**
-
-- Representam os papéis desempenhados por **elementos externos** ao sistema
-  - Ex: humano (usuário), dispositivo de hardware ou outro sistema (cliente)
-- Elementos que **interagem** com o sistema
-
-Notação:
+# Modelagem do banco
+(docs/Diagrama-banco.JPG)
+<!--Notação:
 
 ![Atores Notação](img/dcu_atores_notacao.png "Atores Notação")
 
