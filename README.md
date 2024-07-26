@@ -83,7 +83,7 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
 
 # 4. Regras de negócio
 
-Claro! Abaixo estão os requisitos funcionais e não funcionais para o sistema de Ponto de Vendas (PDV) proposto para a "Popped".
+ Abaixo estão os requisitos funcionais e não funcionais para o sistema de Ponto de Vendas (PDV) proposto pela a Popped.
 
 ## Requisitos Funcionais
 
