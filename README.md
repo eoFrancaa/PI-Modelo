@@ -144,10 +144,10 @@ Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o dia
    - **RNF13**: O sistema deve ser compatível com os principais sistemas operacionais utilizados nas lojas físicas e plataformas de e-commerce.
 
 # Modelagem do banco
-(docs/Diagrama-banco.JPG)
-<!--Notação:
+<img src="docs/Diagrama-banco.JPG">
 
-![Atores Notação](img/dcu_atores_notacao.png "Atores Notação")
+
+<!--[Atores Notação](img/dcu_atores_notacao.png "Atores Notação")
 
 **Exemplo: Loja de CDs**
 
