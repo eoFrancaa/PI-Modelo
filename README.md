@@ -14,7 +14,7 @@ Equipe:
 - [Ana Sofia Berg](https://github.com/AsBergs)
 
 Links do projeto:
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+-   [Documentação](https://github.com/eoFrancaa/PI-Modelo.git)
 -   Backend: [Repositório](https://github.com/eoFrancaa/Popped_Django.git) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](https://github.com/eoFrancaa/PI-Popped.git) e [Publicação](https://popped.vercel.app/)
 -   Figma: [Figma](https://www.figma.com/design/SkJenuEAVLTm8ohVF58d9U/popped-2?node-id=0-1&t=eWVdDOfAPVwW2bi5-1)
