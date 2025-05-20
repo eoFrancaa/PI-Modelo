@@ -5,7 +5,7 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 *(Popped uma marca de refrigerante onde vende suas peças de roupa.)*
 
 
-Professor: [Marco André Mendes](github.com/marcoandre)
+Professor: [Marco André Mendes](github.com/marrcandre)
 
 Equipe:
 - [Rafael de França](https://github.com/eoFrancaa)
