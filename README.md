@@ -18,7 +18,7 @@ Links do projeto:
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
 -   Backend: [Repositório](https://github.com/eoFrancaa/Popped_Django.git) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](https://github.com/eoFrancaa/PI-Popped.git) e [Publicação](https://popped.vercel.app/)
--   Figma: [Figma](https://www.figma.com/design/VUfYxwJMBfeHFWadqBcKW1/Untitled?node-id=0-1&t=N9MF1lXKO2uXMTiP-1)
+-   Figma: [Figma](https://www.figma.com/design/SkJenuEAVLTm8ohVF58d9U/popped-2?node-id=0-1&t=eWVdDOfAPVwW2bi5-1)
 
 
 # 1. Desenvolvimento
