@@ -9,15 +9,15 @@ Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
 - [Rafael de França](https://github.com/eoFranca)
-- [Eduardo Gabriel dos Santos](https://github.com/dudugazuforget)
+- [Eduardo Gabriel dos Santos](https://github.com/dudug05)
 - [Leandro Gustavo dos Santos](https://github.com/LeandroVish)
 - [Ana Sofia Berg](https://github.com/AsBergs)
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](https://github.com/eoFranca/Popped_Django.git) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](https://github.com/eoFranca/PI-Popped.git) e [Publicação](https://popped.vercel.app/)
+-   Backend: [Repositório](https://github.com/eoFrancaa/Popped_Django.git) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/eoFrancaa/PI-Popped.git) e [Publicação](https://popped.vercel.app/)
 -   Figma: [Figma](https://www.figma.com/design/VUfYxwJMBfeHFWadqBcKW1/Untitled?node-id=0-1&t=N9MF1lXKO2uXMTiP-1)
 
 
