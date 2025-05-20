@@ -8,7 +8,7 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Rafael de França](https://github.com/eoFranca)
+- [Rafael de França](https://github.com/eoFrancaa)
 - [Eduardo Gabriel dos Santos](https://github.com/dudug05)
 - [Leandro Gustavo dos Santos](https://github.com/LeandroVish)
 - [Ana Sofia Berg](https://github.com/AsBergs)
